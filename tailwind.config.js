@@ -1,4 +1,5 @@
 module.exports = {
+    content: ["./src/**/*.{html,js}"],
     purge: [],
     darkMode: false,
     colors: {
@@ -10,12 +11,12 @@ module.exports = {
       'moss': '#3d8865',
       'pond': '#005f3a',
       // palette 2
-      // 'sky': '#add5ff',
-      // 'storm': '#ebebeb',
-      // 'white': '#ffffff',
-      // 'lime': '#d0ffa7',
-      // 'cuccumber': '#0a3314',
-      // 'pine-2': '#2e692b',
+      'sky': '#add5ff',
+      'storm': '#ebebeb',
+      'white': '#ffffff',
+      'lime': '#d0ffa7',
+      'cuccumber': '#0a3314',
+      'pine-2': '#2e692b',
     },
     theme: {
       extend: {},

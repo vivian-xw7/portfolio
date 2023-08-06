@@ -24,7 +24,7 @@
 
     </head>
     <body class="antialiased">
-        <div class="bg-pine text-white p-4">
+        <div class="bg-moss text-white p-4">
             This is a styled element using Tailwind CSS!
         </div>
         
