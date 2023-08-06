@@ -1,25 +1,25 @@
+/** @type {import('tailwindcss').Config} */
+
 module.exports = {
-    content: ["./src/**/*.{html,js}"],
-    purge: [],
-    darkMode: false,
-    colors: {
-      // palette 1
-      'pine': '#3b732d',
-      'mustard': '#f9bc40',
-      'sand': '#fbd17d',
-      'mint': '#7fb099',
-      'moss': '#3d8865',
-      'pond': '#005f3a',
-      // palette 2
-      'sky': '#add5ff',
-      'storm': '#ebebeb',
-      'white': '#ffffff',
-      'lime': '#d0ffa7',
-      'cuccumber': '#0a3314',
-      'pine-2': '#2e692b',
+  purge: {
+      content: ["./src/**/*.{html,js}"],
+      options: {
+        safelist: ['bg-moss'],
+      },
     },
+    darkMode: false,
     theme: {
-      extend: {},
+      extend: {
+        colors: {
+          pine: '#3b732d',
+          mustard: '#f9bc40',
+          sand: '#fbd17d',
+          mint: '#7fb099',
+          moss: '#3d8865',
+          pond: '#005f3a',
+        },
+        fontFamily: {},
+      },
     },
     variants: {},
     plugins: [],

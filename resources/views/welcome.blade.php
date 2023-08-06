@@ -20,7 +20,7 @@
             }
         </style>
 
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="tailwind.config.js" rel="stylesheet">
 
     </head>
     <body class="antialiased">
