@@ -19,7 +19,16 @@ module.exports = {
           // pond: '#005f3a',
           pond: '#003f5c',
         },
-        fontFamily: {},
+        fontFamily: {
+          roboto: [
+            'Roboto',
+            'sans-serif',
+            'Montserrat'
+          ],
+          plex: [
+            '"IBM Plex Sans"',
+          ],
+        },
       },
     },
     variants: {},

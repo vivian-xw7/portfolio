@@ -88,25 +88,45 @@
     font-display: swap;
 }
 
-.hdg-1 {}
+.hdg-1 {
+    @apply font-roboto text-4xl;
+}
 
-.hdg-2 {}
+.hdg-2 {
+    @apply font-roboto text-3xl;
+}
 
-.hdg-3 {}
+.hdg-3 {
+    @apply font-roboto text-2xl;
+}
 
-.hdg-3 {}
+.hdg-3 {
+    @apply font-roboto text-xl;
+}
 
-.hdg-4 {}
+.hdg-4 {
+    @apply font-roboto text-lg;
+}
 
-.hdg-5 {}
+.hdg-5 {
+    @apply font-roboto text-base font-bold;
+}
 
-.hdg-6 {}
+.hdg-6 {
+    @apply font-roboto text-sm font-bold;
+}
 
-.type-default {}
+.type-default {
+    @apply font-plex text-base;
+}
 
-.type-large {}
+.type-large {
+    @apply font-plex text-lg;
+}
 
-.type-small {}
+.type-small {
+    @apply font-plex text-sm;
+}
 
 
 
