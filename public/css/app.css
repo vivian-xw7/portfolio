@@ -416,9 +416,5 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.bg-moss {
-  --tw-bg-opacity: 1;
-  background-color: rgb(61 136 101 / var(--tw-bg-opacity));
-}
 /* Add your custom styles below */
 

@@ -4,7 +4,7 @@ module.exports = {
   purge: {
       content: ["./src/**/*.{html,js}"],
       options: {
-        safelist: ['bg-moss'],
+        // safelist: ['bg-moss'],
       },
     },
     darkMode: false,
@@ -16,7 +16,8 @@ module.exports = {
           sand: '#fbd17d',
           mint: '#7fb099',
           moss: '#3d8865',
-          pond: '#005f3a',
+          // pond: '#005f3a',
+          pond: '#003f5c',
         },
         fontFamily: {},
       },
