@@ -3,8 +3,9 @@
 module.exports = {
   plugins: [require('@tailwindcss/typography')],
     content: [
-      './resources/**/*.html',
-      './resources/**/*.js',
+      "./resources/**/*.blade.php",
+      "./resources/**/*.js",
+      "./resources/**/*.vue",
       // Add other file paths containing your CSS classes
     ],
     darkMode: false,

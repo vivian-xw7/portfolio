@@ -89,6 +89,7 @@
 }
 
 .hdg-1 {
+    color: red;
     @apply font-roboto text-4xl;
 }
 
