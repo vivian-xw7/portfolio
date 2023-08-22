@@ -1,12 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  purge: {
-      content: ["./src/**/*.{html,js}"],
-      options: {
-        // safelist: ['bg-moss'],
-      },
-    },
+  plugins: [require('@tailwindcss/typography')],
+    content: [
+      './resources/**/*.html',
+      './resources/**/*.js',
+      // Add other file paths containing your CSS classes
+    ],
     darkMode: false,
     theme: {
       extend: {

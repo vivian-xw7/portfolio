@@ -24,8 +24,35 @@
 
     </head>
     <body class="antialiased">
-        <div class="bg-moss text-white p-4">
-            This is a styled element using Tailwind CSS!
+        <div class="bg-moss text-white px-4 py-8">
+            <p class="hdg-1">
+                heading 1
+            </p>
+            <p class="hdg-2">
+                heading 2
+            </p>
+            <p class="hdg-3">
+                heading 3
+            </p>
+            <p class="hdg-4">
+                heading 4
+            </p>
+            <p class="hdg-5">
+                heading 5
+            </p>
+            <p class="hdg-6">
+                heading 6
+            </p>
+
+            <p class="type-default">
+                type default
+            </p>
+            <p class="type-large">
+                type large
+            </p>
+            <p class="type-small">
+                type small
+            </p>
         </div>
         
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">

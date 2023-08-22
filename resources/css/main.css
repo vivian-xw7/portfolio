@@ -4,5 +4,8 @@
 @import "tailwind/components";
 */
 
-@import "base/typography.css";
+@import 'tailwindcss/base';
+@import 'base/typography.css';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
